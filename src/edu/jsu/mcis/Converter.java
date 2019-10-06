@@ -138,7 +138,7 @@ public class Converter {
                 lineCSV[0] = (String)rowHeadsJSON.get(i);        
                 for(int j = 0; j < currentData.size(); j++)
                 {
-                    lineCSV[j+1] = Long.toString((long)currentData.get(k)); 
+                    lineCSV[j+1] = Long.toString((long)currentData.get(j)); 
                 }                                                          
                 csvWriter.writeNext(lineCSV); 
             }
